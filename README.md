@@ -6,7 +6,7 @@ Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skel
 
 **Frontend Components**
 
-- [Skeleton-Sass](https://github.com/whatsnewsaes/skeleton-sass)
+- [Skeleton](https://github.com/dhg/Skeleton)
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 - [Markdown CSS](https://github.com/sindresorhus/github-markdown-css)
 
