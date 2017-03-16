@@ -1,3 +1,9 @@
+# composer packages
 /vendor/
+
+# logs file
 /logs/*
 !/logs/README.md
+
+# bower components
+public/assets
