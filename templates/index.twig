@@ -33,5 +33,13 @@
         {% else %}
             <p>Try <a href="http://www.slimframework.com">SlimFramework</a>
         {% endif %}
+        {% markdown %}
+            # Test Markdown
+            > This is a description inside blockquote.
+            ```php
+            $message = "Hello World!";
+            echo $message;
+            ```
+        {% endmarkdown %}
     </body>
 </html>
