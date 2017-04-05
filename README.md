@@ -19,3 +19,4 @@ Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skel
 
 - [PHPUnit](https://packagist.org/packages/phpunit/phpunit)
 - [Var Dumper](https://packagist.org/packages/symfony/var-dumper)
+- [guard-livereload](https://github.com/guard/guard-livereload)
