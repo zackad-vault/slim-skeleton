@@ -52,7 +52,7 @@ PLATFORMS
 
 DEPENDENCIES
   guard
-  guard-livereload
+  guard-livereload (~> 2.5)
 
 BUNDLED WITH
    1.11.2
