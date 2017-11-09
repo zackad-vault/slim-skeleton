@@ -2,13 +2,11 @@
 
 Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skeleton) with twig template engine.
 
+## Requirements
+
+- **PHP7** : there's no reason not to use it in new project, especially using modern framework.
+
 ## Included Components
-
-**Frontend Components**
-
-- [Skeleton](https://github.com/dhg/Skeleton)
-- [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
-- [Markdown CSS](https://github.com/sindresorhus/github-markdown-css)
 
 **Backend Components**
 
