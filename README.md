@@ -5,7 +5,28 @@ Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skel
 ## Requirements
 
 - **PHP7** : there's no reason not to use it in new project, especially using modern framework.
-- **NodeJS** : version >=4, recommended version 6.
+- **NodeJS** with npm : version >=4, recommended version 6.
+
+## Starting Development
+
+
+```
+# 1. Creating project
+composer create-project zackad/slim-skeleton your_project_name dev-master
+cd your_project_name
+
+# 2. Installing frontend assets
+npm install
+
+# 3. Starting PHP built in webserver
+composer start
+
+# 4. Starting Livereload server
+npm run livereload
+
+# 5. Bundling assets
+npm run bundle
+```
 
 ## Included Components
 
