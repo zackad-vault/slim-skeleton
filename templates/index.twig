@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Slim 3</title>
-        <link rel="stylesheet" href="/assets/skeleton/css/normalize.css">
-        <link rel="stylesheet" href="/assets/skeleton/css/skeleton.css">
-        <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/assets/github-markdown-css/github-markdown.css">
-    </head>
-    <body>
-        <div class="container markdown-body">
-            <h1>Slim</h1>
-            <div>a microframework for PHP</div>
-            {% if name %}
-                <h2>Hello {{ name }}!</h2>
-            {% else %}
-                <p>Try <a href="http://www.slimframework.com">SlimFramework</a>
-            {% endif %}
-            {% markdown %}
-                # Test Markdown
-                > This is a description inside blockquote.
+  <head>
+    <meta charset="utf-8"/>
+    <title>Slim 3</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <div class="container markdown-body">
+      <h1>Slim</h1>
+      <div>a microframework for PHP</div>
+      {% if name %}
+        <h2>Hello {{ name }}!</h2>
+      {% else %}
+        <p>Try <a href="http://www.slimframework.com">SlimFramework</a>
+      {% endif %}
+      {% markdown %}
+        # Test Markdown
+        > This is a description inside blockquote.
 
-                ```php
-                $message = "Hello World!";
-                echo $message;
-                ```
+        ```php
+        $message = "Hello World!";
+        echo $message;
+        ```
 
-                ## Example of table
+        ## Example of table
 
-                |Column 1   |Column 2   |
-                |---:       |:---:      |
-                |Row 1      | Row 1     |
-            {% endmarkdown %}
-        </div>
-    </body>
+        |Column 1   |Column 2   |
+        |---:       |:---:      |
+        |Row 1      | Row 1     |
+      {% endmarkdown %}
+    </div>
+  </body>
 </html>
