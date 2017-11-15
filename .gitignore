@@ -5,5 +5,8 @@
 /logs/*
 !/logs/README.md
 
-# bower components
+# assets bundles
 public/assets
+
+# npm modules
+node_modules
