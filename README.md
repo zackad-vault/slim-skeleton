@@ -5,8 +5,15 @@ Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skel
 ## Requirements
 
 - **PHP7** : there's no reason not to use it in new project, especially using modern framework.
+- **NodeJS** : version >=4, recommended version 6.
 
 ## Included Components
+
+**Frontend Components**
+
+- [Font Awesome](https://www.npmjs.com/package/font-awesome)
+- [Skeleton CSS](https://www.npmjs.com/package/skeleton-css)
+- [Github Markdown CSS](https://www.npmjs.com/package/github-markdown-css)
 
 **Backend Components**
 
@@ -17,4 +24,5 @@ Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skel
 
 - [PHPUnit](https://packagist.org/packages/phpunit/phpunit)
 - [Var Dumper](https://packagist.org/packages/symfony/var-dumper)
-- [PHP Livereload](https://github.com/RickySu/php-livereload)
+- [Livereload](https://www.npmjs.com/package/livereload)
+- [Webpack](https://www.npmjs.com/package/webpack)
