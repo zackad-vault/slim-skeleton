@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "bundle": "NODE_ENV=production webpack -p",
-    "test": "webpack --watch",
-    "livereload": "livereload . --exts 'twig'"
+    "reload": "livereload . --exts 'twig'",
+    "start": "npm-run-all --parallel reload webpack",
+    "webpack": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "file-loader": "^1.1.5",
     "livereload": "^0.6.3",
     "node-sass": "^4.6.1",
+    "npm-run-all": "^4.1.2",
     "sass-loader": "^6.0.6",
     "webpack": "^3.8.1"
   }
