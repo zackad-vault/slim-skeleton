@@ -10,7 +10,7 @@ Modified version of [slimphp/slim-skeleton](https://github.com/slimphp/Slim-Skel
 ## Starting Development
 
 
-```
+```shell
 # 1. Creating project
 composer create-project zackad/slim-skeleton your_project_name dev-master
 cd your_project_name
@@ -21,11 +21,8 @@ npm install
 # 3. Starting PHP built in webserver
 composer start
 
-# 4. Starting Livereload server
-npm run livereload
-
-# 5. Bundling assets
-npm run bundle
+# 4. Starting Livereload server and webpack watcher
+npm start
 ```
 
 ## Included Components
