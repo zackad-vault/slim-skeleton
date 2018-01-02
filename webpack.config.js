@@ -7,7 +7,7 @@ var extractPlugin = new ExtractTextPlugin({
 
 var config = {
     entry: {
-        app: './js/index.js'
+        app: './assets/index.js'
     },
     output: {
         filename: 'js/[name].js',
