@@ -11,13 +11,13 @@ $dotenv->required([
 
 return [
     'settings' => [
-        'displayErrorDetails' => getenv('DISPLAY_ERROR_DETAILS'), // set to false in production
-        'addContentLengthHeader' => getenv('ADD_CONTENT_LENGTH_HEADER'), // Allow the web server to send the content-length header
+        'displayErrorDetails' => getenv('DISPLAY_ERROR_DETAILS'),
+        'addContentLengthHeader' => getenv('ADD_CONTENT_LENGTH_HEADER'),
 
         // Renderer settings
         'twig' => [
             'template_path' => getenv('TWIG_TEMPLATE_PATH'),
-            'debug' => getenv('TWIG_DEBUG'), // set to false in production
+            'debug' => getenv('TWIG_DEBUG'),
         ],
 
         // Monolog settings
