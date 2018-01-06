@@ -11,11 +11,14 @@
             "homepage": "http://zackad.com"
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
     "require": {
         "php": ">=7.0",
-        "slim/slim": "^3.1",
-        "monolog/monolog": "^1.17",
         "jralph/twig-markdown": "^1.0",
+        "monolog/monolog": "^1.17",
+        "slim/slim": "^3.1",
         "slim/twig-view": "^2.1"
     },
     "scripts": {
