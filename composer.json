@@ -1,5 +1,6 @@
 {
     "name": "zackad/slim-skeleton",
+    "type": "project",
     "description": "Modified version of slim/slim-skeleton with twig template engine",
     "keywords": ["microframework", "rest", "router", "psr7"],
     "homepage": "http://github.com/zackad/slim-skeleton",
