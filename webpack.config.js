@@ -34,7 +34,7 @@ var config = {
              * Transpile sass into css file
              */
             {
-                test: /\.scss$/,
+                test: /\.(sass|scss)$/,
                 use: extractPlugin.extract({
                     use: [
                         {
