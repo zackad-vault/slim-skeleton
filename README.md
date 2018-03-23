@@ -43,4 +43,4 @@ npm start
 - [PHPUnit](https://packagist.org/packages/phpunit/phpunit)
 - [Var Dumper](https://packagist.org/packages/symfony/var-dumper)
 - [Livereload](https://www.npmjs.com/package/livereload)
-- [Webpack](https://www.npmjs.com/package/webpack)
+- [Webpack-Encore](https://www.npmjs.com/package/@symfony/webpack-encore)
