@@ -4,9 +4,10 @@
   "description": "Frontend dependencies manager and bundler.",
   "main": "index.js",
   "scripts": {
-    "bundle": "NODE_ENV=production webpack -p",
+    "bundle": "encore production",
     "reload": "livereload . --exts 'twig'",
     "start": "npm-run-all --parallel reload webpack",
+    "test": "npm run bundle",
     "watch": "encore dev --watch"
   },
   "repository": {
