@@ -7,7 +7,7 @@
     "bundle": "NODE_ENV=production webpack -p",
     "reload": "livereload . --exts 'twig'",
     "start": "npm-run-all --parallel reload webpack",
-    "webpack": "webpack --watch"
+    "watch": "encore dev --watch"
   },
   "repository": {
     "type": "git",
