@@ -2,8 +2,8 @@
 var Encore = require('@symfony/webpack-encore')
 
 Encore
-    .setOutputPath('public/assets/')
-    .setPublicPath('/assets')
+    .setOutputPath('public/build/')
+    .setPublicPath('/build')
     .addEntry('app', './assets/index.js')
     .enableSassLoader()
     .enableSourceMaps(true)
