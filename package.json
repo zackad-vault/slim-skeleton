@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bundle": "encore production",
-    "livereload": "livereload . --exts 'twig' --exclusions 'var/,assets/,vendor/,node_modules/'",
+    "livereload": "livereload . --extraExts 'twig' --exclusions 'var/,assets/,vendor/,node_modules/'",
     "start": "npm-run-all --parallel livereload watch",
     "test": "npm run bundle",
     "watch": "encore dev --watch"
