@@ -8,5 +8,6 @@ Encore
     .enableSassLoader()
     .enableSourceMaps(true)
     .cleanupOutputBeforeBuild()
+    .disableSingleRuntimeChunk()
 
 module.exports = Encore.getWebpackConfig()
